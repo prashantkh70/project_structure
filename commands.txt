@@ -1,0 +1,28 @@
+1] install comda for comda installation , presss ctrl+shift+p to select conda env
+    To check conda installations 
+    >> conda info
+2] del current terminal and open cmd 
+3] to crate conda env
+    >> conda create -p myvenv python==3.8 -y
+4] To activate the env 
+    >> conda activate myenv
+5] to del env
+    >> conda env remove --name myenv
+    or >> Remove-Item -Recurse -Force vemv   / ri -r -fo vemv  / rmdir -recurse -force vemv
+
+## git 
+6] git init  # to installation
+    >> config files
+        >> git config --global user.email "prashantkh7000@gmail.com" 
+        >> git config --global user.name "prashantkh70"
+7] Add README.md file in vscode and the use
+    >> git add README.md
+8] To commit the changes
+    >> git commit -m "your message"
+9] to check branch
+    >> git branch -M main
+10] git remote add origin https://github.com/prashantkh70/project_structure.git
+11] to push
+    git push -u origin main
+12] add .gitignore in github repo
+    >> git pull  # to get all files in this folder

@@ -1,0 +1,7 @@
+Project Flow:
+ 1] Setup the github {repo}
+    -- create a new repo or use existing one
+    a) new env
+        --conda create -p venv python==3.8 -y
+    b) setup.py
+    c) requirements.txt
